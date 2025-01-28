@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Onest-ExtraBold";
+    src:
+        local("Onest-ExtraBold"),
+        url("./fonts/Onest-ExtraBold.woff2") format("woff2"),
+        url("./fonts/Onest-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Onest-ExtraBold';
+    background: #050505;
+}
+
+.container {
+    max-width: 1320px;
+    display: flex;
+}
+
+span {
+    color: #fff;
+    font-size: 102px;
+    font-weight: 800;
+}
+
+.text {
+    position: absolute;
+    width: 1270px;
+    height: 102px;
+    top: 15px;
+    left: 20px;
+}
+
+.text:nth-of-type(2) {
+    top: 155px;
+}
+
+.text:nth-of-type(3) {
+    top: 290px;
+}
+
+.text:nth-of-type(4) {
+    top: 425px;
+}
+
+.span_text {
+    position: absolute;
+    left: 849px;
+    width: 90px;
+}
+
+.span_text_2 {
+    position: absolute;
+    width: 210px;
+    top: 0px;
+    left: 985px;
+}
+
+.span_text_3 {
+    position: absolute;
+    left: 470px;
+    width: 270px;
+}
+.span_text_4 {
+    position: absolute;
+    left: 750px;
+    width: 505px;
+}
+
+.span_text_5 {
+    position: absolute;
+    left: 732px;
+    width: 520px;
+}
+
+.grafika {
+    position: absolute;
+    top: 45px;
+    left: 565px;
+    width: 255px;
+    height: 60px;
+}
+
+.grafika_2 {
+    position: absolute;
+    top: 39px;
+    left: 379px;
+    width: 81px;
+    height: 60px;
+}
+
+.grafika_3 {
+    position: absolute;
+    top: 39px;
+    left: 543px;
+    width: 175px;
+    height: 60px;
+}
+
+.grafika_4 {
+    position: absolute;
+    top: 39px;
+    left: 616px;
+    width: 640px;
+    height: 60px;
+}
+
+.grafika_5 {
+    position: absolute;
+    left: 105px;
+    top: 130px;
+    width: 380px;
+    height: 60px;
+    display: none;
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 720px;
+        display: flex;
+    }
+
+    .text {
+        width: 720px;
+    }
+
+    span {
+        font-size: 80px;
+    }
+
+    .text:nth-of-type(2)>span:nth-of-type(1) {
+        position: absolute;
+        left: 185px;
+    }
+
+    .text:nth-of-type(3)>span:nth-of-type(1) {
+        position: absolute;
+        top: 34px;
+        left: 425px;
+    }
+    .text:nth-of-type(3)>span:nth-of-type(2) {
+        position: absolute;
+        top: 140px;
+        left: 0px;
+    }
+    .grafika {
+        top: 21px;
+        left: 449px;
+    }
+
+    .grafika_2 {
+        top: 20px;
+        left: 5px;
+        width: 170px;
+    }
+    .grafika_3 {
+        top: 165px;
+        left: 145px;
+        width: 135px;
+    }
+    .grafika_4 {
+        top: 30px;
+        left: 480px;
+        width: 230px;
+    }
+
+    .grafika_5 {
+        display: flex;
+    }
+
+    .span_text {
+        top: 105px;
+        left: 10px;
+    }
+
+    .span_text_2 {
+        position: absolute;
+        width: 210px;
+        top: 105px;
+        left: 495px;
+    }
+    .span_text_3 {
+        left: 490px;
+        width: 215px;
+    }
+    .span_text_4 {
+        top: 110px;
+        left: 0px;
+        width: 395px;
+    }
+
+    .span_text_5 {
+        top: 140px;
+        left: 289px;
+        width: 410px;
+    }
+
+    .text:nth-of-type(2) {
+        top: 230px;
+    }
+
+    .text:nth-of-type(3) {
+        top: 305px;
+    }
+
+    .text:nth-of-type(4) {
+        top: 550px;
+    }
+
+
+}
