@@ -46,7 +46,8 @@ footer,
 .frame_3763,
 .form_link,
 .rectangle_55,
-.rectangle_53 {
+.rectangle_53,
+.form {
     width: 100%;
 }
 body {
@@ -493,7 +494,8 @@ main {
 }
 
 .form_img {
-    position: absolute;
+    position: relative;
+    width: 100%;
     top: -128px;
     left: 1046px;
     z-index: 2;
@@ -501,8 +503,7 @@ main {
 
 .form_img_2 {
     position: absolute;
-    width: 1142px;
-    height: 628px;
+    width: 100%;
     top: 0px;
     left: 455px;
     border-radius: 0px 24px 24px 0px;
