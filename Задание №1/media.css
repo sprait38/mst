@@ -67,7 +67,16 @@
     }
 
     .active_img_2 {
-        width: 29.6%;
+        width: 100%;
+    }
+    .activ_image {
+        width: 470px;
+        height: 591px;
+    }
+    .activ_image_2 {
+        width: 474px;
+        height: 470px;
+        left: 835px;
     }
 
     .frame_3440 {
@@ -125,9 +134,7 @@
     }
 
     .form_img_2 {
-        width: 65%;
-        top: 0px;
-        left: 455px;
+        width: 100%;
     }
 
     .form_h2 {
@@ -175,12 +182,17 @@
         margin-right: 415px;
     }
 }
-@media (max-width: 1366px){
+@media (max-width: 1366px) {
     .frame_3822 {
         left: 120px;
     }
     .frame_3836 {
+        width: 1200px;
+        height: 440px;
         left: 120px;
+    }
+    .header_img {
+        left: 925px;
     }
     nav {
         left: 290px;
@@ -195,6 +207,93 @@
     }
     .frame_3838 {
         top: 135px;
+    }
+    .frame_3860 {
+        height: 525px;
+        width: 450px;
+    }
+    .activ_image {
+        width: 418px;
+        height: 525px;
+    }
+    .frame_3746 {
+        width: 455px;
+        height: 490px;
+        left: 475px;
+        top: 35px;
+    }
+    .frame_3440 {
+        width: 455px;
+        height: 400px;
+    }
+    .icon {
+        background-image: url(./img/Group_5.svg);
+        background-repeat: no-repeat;
+    }
+    .li_span {
+        width: 380px;
+        font-size: 16px;
+        left: 70px;
+    }
+    .main_li {
+        top: 330px;
+    }
+
+    .main_li:nth-last-child(4) {
+        top: 0px;
+    }
+
+    .main_li:nth-last-child(3) {
+        top: 85px;
+    }
+
+    .main_li:nth-last-child(2) {
+        top: 175px;
+    }
+
+    .button_btn_2 {
+        top: 415px;
+        width: 445px;
+    }
+
+    .text_2 {
+        left: 165px;
+    }
+    .form {
+        top: 625px;
+    }
+    .frame_3812 {
+        width: 1160px;
+        height: 470px;
+        left: 110px;
+    }
+    .form_h2 {
+        width: 300px;
+        font-size: 35px;
+    }
+    .input {
+        width: 500px;
+    }
+    .button_btn_3 {
+        width: 560px;
+    }
+    .text_3 {
+        left: 155px;
+    }
+    .activ_image_2 {
+        width: 472px;
+        height: 360px;
+        left: 682px;
+    }
+    .form_img {
+        left: 710px;
+    }
+    .frame_3813 {
+        top: 170px;
+        left: 40px;
+    }
+    .form_h2 {
+        left: 40px;
     }
     .frame_3826 {
         top: 200px;
@@ -233,5 +332,18 @@
     .label_checkbox .checkmark:after {
         left: 8px;
         top: 2px;
+    }
+
+    .nav_footer {
+        left: 370px;
+    }
+    .icon_footer {
+        left: 475px;
+    }
+    .span_footer span:not(:last-child) {
+        margin-right: 385px;
+    }
+    .btn {
+        left: 1185px;
     }
 }

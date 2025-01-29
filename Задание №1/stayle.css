@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid #f00;*/
-}
+   border: 1px solid #f00;
+   }
 
 @font-face {
     font-family: "Arial";
@@ -131,7 +131,7 @@ ul {
     position: absolute;
 }
 
-.frame_3836{
+.frame_3836 {
     position: absolute;
     width: 1305px;
     height: 777px;
@@ -391,16 +391,27 @@ main {
     width: 622px;
     height: 723px;
 }
-
+.activ_image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 589px;
+    height: 724px;
+}
 .active_img {
     width: 100%;
 }
 
 .active_img_2 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
     width: 100%;
+}
+.activ_image_2 {
+    width: 633px;
+    height: 628px;
+    top: 0px;
+    left: 960px;
+    z-index: 1;
+    position: absolute;
 }
 
 .frame_3746 {
@@ -502,13 +513,8 @@ main {
 }
 
 .form_img_2 {
-    position: absolute;
     width: 100%;
-    top: 0px;
-    left: 455px;
-    border-radius: 0px 24px 24px 0px;
     backdrop-filter: blur(1px);
-    z-index: 1;
 }
 
 .form_forma {
