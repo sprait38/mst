@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-   border: 1px solid #f00;
+ /*  border: 1px solid #f00;*/
    }
 
 @font-face {
@@ -394,7 +394,7 @@ main {
 .activ_image {
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 2px;
     width: 589px;
     height: 724px;
 }
@@ -641,7 +641,7 @@ footer {
     top: 2660px;
     height: 329px;
     background: #222222;
-    z-index: 3;
+    z-index: 4;
 }
 
 .rectangle_55 {

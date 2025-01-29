@@ -37,6 +37,10 @@
         padding: 24px 35px 20px 40px;
     }
 
+    .button_header {
+        top: 210px;
+    }
+
     .button_text {
         top: 18px;
         left: 30.5px;
@@ -69,10 +73,12 @@
     .active_img_2 {
         width: 100%;
     }
+
     .activ_image {
         width: 470px;
         height: 591px;
     }
+
     .activ_image_2 {
         width: 474px;
         height: 470px;
@@ -92,10 +98,6 @@
     .main_li {
         position: absolute;
         top: 365px;
-    }
-
-    .main_li:nth-last-child(4) {
-        top: 0px;
     }
 
     .main_li:nth-last-child(3) {
@@ -156,91 +158,121 @@
         width: 635px;
         height: 70px;
     }
+
     .text_3 {
         top: 15px;
         left: 200px;
     }
+
     .form_link {
         top: 1265px;
     }
+
     footer {
         top: 2040px;
     }
+
     .nav_footer {
         left: 565px;
     }
+
     .icon_footer {
         left: 620px;
     }
+
     .btn {
         left: 1245px;
     }
+
     .button_text_footer {
         left: 45px;
     }
+
     .span_footer span:not(:last-child) {
         margin-right: 415px;
     }
 }
+
 @media (max-width: 1366px) {
+
+    .img_header {
+        width: 220px;
+    }
+
     .frame_3822 {
         left: 120px;
     }
+
     .frame_3836 {
         width: 1200px;
         height: 440px;
         left: 120px;
+        top: 100px;
     }
+
     .header_img {
         left: 925px;
     }
+
     nav {
         left: 290px;
     }
+
     .frame_3833 h2 {
-        font-size: 45px;
-        line-height: 60px;
+        font-size: 35px;
+        line-height: 50px;
     }
+
     .span_header {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 30px;
     }
+
+    main {
+        top: 580px;
+    }
+
     .frame_3838 {
-        top: 135px;
+        top: 115px;
     }
+
     .frame_3860 {
         height: 525px;
         width: 450px;
     }
+
     .activ_image {
         width: 418px;
         height: 525px;
     }
+
     .frame_3746 {
         width: 455px;
         height: 490px;
         left: 475px;
         top: 35px;
     }
+
     .frame_3440 {
         width: 455px;
         height: 400px;
     }
+
     .icon {
         background-image: url(./img/Group_5.svg);
         background-repeat: no-repeat;
+        width: 50px;
+        height: 41px;
     }
+
     .li_span {
         width: 380px;
         font-size: 16px;
         left: 70px;
     }
+
     .main_li {
         top: 330px;
-    }
-
-    .main_li:nth-last-child(4) {
-        top: 0px;
     }
 
     .main_li:nth-last-child(3) {
@@ -259,76 +291,97 @@
     .text_2 {
         left: 165px;
     }
+
     .form {
         top: 625px;
     }
+
     .frame_3812 {
         width: 1160px;
         height: 470px;
         left: 110px;
     }
+
     .form_h2 {
         width: 300px;
         font-size: 35px;
     }
+
     .input {
         width: 500px;
     }
+
     .button_btn_3 {
         width: 560px;
     }
+
     .text_3 {
         left: 155px;
     }
+
     .activ_image_2 {
         width: 472px;
         height: 360px;
         left: 682px;
     }
+
     .form_img {
         left: 710px;
     }
+
     .frame_3813 {
         top: 170px;
         left: 40px;
     }
+
     .form_h2 {
         left: 40px;
     }
+
     .frame_3826 {
-        top: 200px;
+        top: 185px;
     }
+
     .label_checkbox {
         width: 410px;
     }
+
     .dot {
-        font-size: 35px;
-        line-height: 55px;
+        font-size: 30px;
+        line-height: 50px;
         left: 80px;
     }
+
     .dots {
         left: 250px;
     }
+
     .dotk {
         left: 5px;
     }
+
     .doty {
         left: 138px;
     }
+
     .dote {
         left: 39px;
     }
+
     .dotr {
         left: 170px;
     }
+
     .checkmark {
         height: 30px;
         width: 30px;
     }
+
     .label_checkbox .checkmarks:after {
         left: 8px;
         top: 2px;
     }
+
     .label_checkbox .checkmark:after {
         left: 8px;
         top: 2px;
@@ -337,13 +390,232 @@
     .nav_footer {
         left: 370px;
     }
+
     .icon_footer {
         left: 475px;
     }
+
     .span_footer span:not(:last-child) {
         margin-right: 385px;
     }
+
     .btn {
         left: 1185px;
+    }
+}
+
+@media (max-width:1280px) {
+    .container {
+        min-width: 1140px;
+    }
+
+    .frame_3822 {
+        top: 15px;
+    }
+
+    .Group12 {
+        width: 920px;
+    }
+
+    .frame_3836 {
+        width: 745px;
+        left: 120px;
+        top: 75px;
+    }
+
+    .frame_3833 h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .span_header {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .img_header {
+        width: 200px;
+    }
+
+    .frame_3826 {
+        top: 170px;
+    }
+
+    .header_img {
+        left: 865px;
+    }
+
+    .button_btn_2 {
+        width: 370px;
+    }
+
+    main {
+        top: 542px;
+    }
+
+    .frame_3440 {
+        width: 370px;
+    }
+
+    .li_span {
+        width: 310px;
+        font-size: 14px;
+    }
+
+    .dot {
+        font-size: 25px;
+        line-height: 45px;
+        left: 65px;
+        top: 0;
+    }
+
+    .dote {
+        left: 30px;
+    }
+   
+    .dots {
+        font-size: 20px;
+        left: 200px;
+    }
+    .dotr {
+        left: 130px;
+    }
+
+    .dotk {
+        left: 0;
+    }
+
+    .doty {
+        left: 100px;
+    }
+
+    .span_footer span:not(:last-child) {
+        margin-right: 325px;
+    }
+
+    .btn {
+        left: 1070px;
+    }
+
+    .form_img {
+        left: 660px;
+    }
+
+    .frame_3812 {
+        width: 1160px;
+        height: 470px;
+        left: 70px;
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        min-width: 960px;
+    }
+
+    .frame_3822 {
+        left: 60px;
+    }
+
+    nav {
+        left: 170px;
+    }
+
+    .frame_3836 {
+        left: 60px;
+        width: 630px;
+    }
+
+    .header_img {
+        left: 690px;
+    }
+
+    .frame_3833 h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .span_header {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .frame_3838 {
+        top: 85px;
+    }
+
+    .frame_3826 {
+        top: 125px;
+        width: 415px;
+    }
+    .label_checkbox:nth-last-child(3) {
+        top: 55px;
+    }
+    .label_checkbox:nth-last-child(2) {
+        position: absolute;
+        top: 110px;
+    }
+    .button_header {
+        top: 165px;
+    }
+    .button_btn {
+        width: 135px;
+        height: 60px;
+        padding: 24px 35px 20px 40px;
+    }
+    .button_text {
+        top: 32px;
+        left: 48.5px;
+        width: 91px;
+        height: 17px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    .button_text {
+        top: 12px;
+        left: 21.5px;
+    }
+    main {
+        top: 435px;
+    }
+    .frame_3860 {
+        height: 401px;
+        width: 345px;
+    }
+    .activ_image {
+        width: 320px;
+        height: 401px;
+    }
+    .frame_3746 {
+        width: 440px;
+        height: 490px;
+        left: 355px;
+    }
+    .li_span {
+        width: 265px;
+        font-size: 13px;
+        line-height: 22.6px;
+    }
+    .frame_3440 {
+        width: 340px;
+    }
+    .main_li:nth-last-child(3) {
+        top: 65px;
+    }
+    .main_li:nth-last-child(2) {
+        top: 130px;
+    }
+    .main_li {
+        top: 235px;
+    }
+    .button_btn_2 {
+        width: 335px;
+        top: 295px;
+    }
+
+    .text_2 {
+        left: 120px;
+    }
+    .form {
+        top: 501px;
     }
 }
