@@ -5,6 +5,11 @@
         left: 1085px;
     }
 
+    .Group12 {
+        width: 1090px;
+        height: 689px;
+    }
+
     .header_img img {
         width: 100%;
     }
@@ -194,9 +199,12 @@
 }
 
 @media (max-width: 1366px) {
-
     .img_header {
         width: 220px;
+    }
+
+    .header_img {
+        height: 35%;
     }
 
     .frame_3822 {
@@ -305,6 +313,7 @@
     .form_h2 {
         width: 300px;
         font-size: 35px;
+        left: 40px;
     }
 
     .input {
@@ -331,10 +340,6 @@
 
     .frame_3813 {
         top: 170px;
-        left: 40px;
-    }
-
-    .form_h2 {
         left: 40px;
     }
 
@@ -404,7 +409,7 @@
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
     .container {
         min-width: 1140px;
     }
@@ -472,11 +477,12 @@
     .dote {
         left: 30px;
     }
-   
+
     .dots {
         font-size: 20px;
         left: 200px;
     }
+
     .dotr {
         left: 130px;
     }
@@ -508,7 +514,7 @@
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
     .container {
         min-width: 960px;
     }
@@ -534,10 +540,12 @@
         font-size: 25px;
         line-height: 40px;
     }
+
     .span_header {
         font-size: 15px;
         line-height: 20px;
     }
+
     .frame_3838 {
         top: 85px;
     }
@@ -546,21 +554,26 @@
         top: 125px;
         width: 415px;
     }
+
     .label_checkbox:nth-last-child(3) {
         top: 55px;
     }
+
     .label_checkbox:nth-last-child(2) {
         position: absolute;
         top: 110px;
     }
+
     .button_header {
         top: 165px;
     }
+
     .button_btn {
         width: 135px;
         height: 60px;
         padding: 24px 35px 20px 40px;
     }
+
     .button_text {
         top: 32px;
         left: 48.5px;
@@ -570,43 +583,54 @@
         font-weight: 700;
         line-height: 36px;
     }
+
     .button_text {
         top: 12px;
         left: 21.5px;
     }
+
     main {
         top: 435px;
     }
+
     .frame_3860 {
         height: 401px;
         width: 345px;
     }
+
     .activ_image {
         width: 320px;
         height: 401px;
     }
+
     .frame_3746 {
         width: 440px;
         height: 490px;
         left: 355px;
     }
+
     .li_span {
         width: 265px;
         font-size: 13px;
         line-height: 22.6px;
     }
+
     .frame_3440 {
         width: 340px;
     }
+
     .main_li:nth-last-child(3) {
         top: 65px;
     }
+
     .main_li:nth-last-child(2) {
         top: 130px;
     }
+
     .main_li {
         top: 235px;
     }
+
     .button_btn_2 {
         width: 335px;
         top: 295px;
@@ -615,7 +639,55 @@
     .text_2 {
         left: 120px;
     }
+
     .form {
         top: 501px;
+    }
+
+    .frame_3812 {
+        width: 850px;
+        height: 350px;
+        border-radius: 15px;
+    }
+
+    .form_h2 {
+        width: 240px;
+        font-size: 30px;
+        top: 10px;
+        line-height: 42.4px;
+    }
+
+    .input {
+        width: 310px;
+        height: 25px;
+        padding: 11.88px 13.82px 10.88px 19.16px;
+    }
+
+    .button_btn_3 {
+        width: 345px;
+        top: 175px;
+    }
+
+    .text_3 {
+        top: 15px;
+        left: 120px;
+        width: 180px;
+    }
+
+    .checkbox {
+        top: 135px;
+    }
+
+    .label_input {
+        top: 130px;
+    }
+    .form_img {
+        left: 490px;
+        width: 70%;
+    }
+    .activ_image_2 {
+        width: 355px;
+        height: 360px;
+        left: 495px;
     }
 }
