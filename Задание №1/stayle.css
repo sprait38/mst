@@ -7,9 +7,9 @@
 @font-face {
     font-family: "Arial";
     src:
-        local("Arial_Gras_Italique"),
-        url("./fonts/Arial_Gras_Italique.woff2") format("woff2"),
-        url("./fonts/Arial_Gras_Italique.woff") format("woff");
+        local("Arial-ital"),
+        url("./fonts/arial-ital.woff2") format("woff2"),
+        url("./fonts/arial-ital.woff2") format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -75,7 +75,7 @@ body {
 
 h2,
 .dot {
-    font-family: Prata;
+    font-family: "Prata";
 }
 
 .Group12 {
@@ -184,19 +184,16 @@ ul {
 
 .menu {
     display: flex;
-    width: 400px;
+    width: 427px;
     height: 11px;
 }
 
 .menu_li {
-    font-size: 16px;
-    font-style: italic;
     font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.04em;
     text-align: right;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -233,8 +230,6 @@ h2 {
     font-weight: 400;
     line-height: 96px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #ffffff;
 }
 
@@ -282,8 +277,6 @@ h2 {
     line-height: 36px;
     letter-spacing: 0.04em;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     text-transform: uppercase;
     color: #222222;
 }
@@ -783,6 +776,7 @@ footer {
     top: 148px;
     left: 160px;
 }
+
 .footer-link:active {
     color: #E1670E;
 }
